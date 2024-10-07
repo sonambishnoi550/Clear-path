@@ -7,3 +7,28 @@ body{
        font-family: 'El Messiri',sans-serif;
    
 }
+ .sec3-bg {
+     background-image: url(assets/images/png/sec3-bg.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     max-width: 1210px;
+     min-height: 465px;
+     border-radius: 22px;
+ }
+
+ .clearpath-card:hover {
+     background: #1B3353;
+ }
+
+ .clearpath-card:hover .card-text {
+     color: white !important;
+ }
+
+ .clearpath-card:hover .card {
+     background-color: white !important;
+ }
+
+ .clearpath-card:hover .card svg path {
+     fill: #1b3353 !important;
+ }
